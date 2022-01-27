@@ -1,0 +1,28 @@
+.login-form {
+  width: 400px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  border: 1px solid #ec5f00;
+  text-align: center;
+  min-height: 500px;
+}
+
+.google-login {
+  margin: auto;
+  display: block;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: 1px solid #ec5f00;
+  transition: 0.2s;
+}
+.google-login:hover {
+  background-color: #ec5f00;
+  color: #fff;
+}
+/* responsive for small devices */
+@media only screen and (max-width: 500px) {
+  .login-form {
+    width: 85%;
+  }
+}

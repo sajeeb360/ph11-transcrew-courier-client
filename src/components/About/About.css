@@ -1,0 +1,34 @@
+.read-more {
+  background-color: #ec5f00;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 8px 40px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.read-more:hover {
+  background-color: #c44e00;
+  color: #fff;
+}
+.about-details {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.about-details h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .about-details {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-details h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+}

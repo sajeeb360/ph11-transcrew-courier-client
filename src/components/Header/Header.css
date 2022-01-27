@@ -1,0 +1,44 @@
+.nav-bar {
+  padding: 12px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ec5f00;
+}
+.nav-bar a.navbar-link.nav-link {
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+  transition: 0.2s;
+}
+.nav-bar a.navbar-link.nav-link:hover {
+  font-weight: 600;
+  color: #0275d8;
+}
+.nav-bar a.nav-link.login-btn {
+  margin-left: 20px;
+  background-color: #ec5f00;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-bar a.nav-link.login-btn:hover {
+  background-color: #c44e00;
+  color: #fff;
+}
+.logout {
+  margin-left: 20px;
+  background-color: #ec5f00;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.logout:hover {
+  background-color: #c44e00;
+  color: #fff;
+}

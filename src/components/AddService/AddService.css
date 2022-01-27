@@ -1,0 +1,41 @@
+.service-form {
+  width: 400px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  border: 1px solid #f6ab36;
+}
+.service-input {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #f6ab36;
+  outline: none;
+  border-radius: 5px;
+  transform: 0.3s;
+}
+.service-input:focus {
+  border-color: #f6ab36;
+}
+input.service-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background: #f6ab36;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}
+.errors {
+  color: red;
+}
+
+/* responsive for small devices */
+@media only screen and (max-width: 500px) {
+  .service-form {
+    width: 85%;
+  }
+}

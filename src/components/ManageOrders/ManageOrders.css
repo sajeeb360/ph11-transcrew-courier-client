@@ -1,0 +1,20 @@
+.manage-orders {
+  padding: 50px 20px;
+  text-align: center;
+}
+.manage-orders table {
+  overflow-x: scroll;
+}
+.table-head {
+  background-color: rgb(219, 219, 219);
+  color: rgb(54, 54, 54);
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* for responsive design */
+@media only screen and (max-width: 800px) {
+  .manage-orders table {
+    font-size: 12px;
+  }
+}

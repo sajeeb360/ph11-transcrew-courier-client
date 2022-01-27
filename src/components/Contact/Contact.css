@@ -1,0 +1,49 @@
+.contact {
+  background-color: rgb(236, 236, 236);
+  padding: 60px 0;
+}
+.contact-desc {
+  width: 60%;
+  margin: auto;
+}
+.contact-form {
+  width: 750px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  border: 1px solid #3690f6;
+}
+.contact-input {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #3690f6;
+  outline: none;
+  border-radius: 5px;
+  transform: 0.3s;
+}
+.contact-input:focus {
+  border-color: #3690f6;
+}
+input.contact-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background: #3690f6;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* for responsive design */
+@media only screen and (max-width: 767px) {
+  .contact-form {
+    width: 98%;
+  }
+  .contact-desc {
+    width: 100%;
+  }
+}

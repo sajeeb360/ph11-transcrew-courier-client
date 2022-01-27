@@ -1,0 +1,33 @@
+.card.service {
+  text-align: center;
+  border: 1px solid #ec5f00;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+
+.service-btn {
+  background-color: #ec5f00;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.service-btn:hover {
+  background-color: #c44e00;
+  color: #fff;
+}
+.card.service .card-title {
+  color: rgb(27, 27, 27);
+}
+.card.service .card-text {
+  color: rgb(102, 102, 102);
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 15px;
+  line-height: 28px;
+}
